@@ -1,0 +1,21 @@
+{
+  "name": "datafeedserver",
+  "version": "1.0.0",
+  "description": "Web server that is used by the admins to manage the data related to restaurants",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "alwajabat"
+  ],
+  "author": "Deepak Baliga",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "mongoose": "^4.4.12",
+    "morgan": "^1.7.0",
+    "validator": "^5.2.0"
+  }
+}
